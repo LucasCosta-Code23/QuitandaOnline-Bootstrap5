@@ -16,6 +16,10 @@ Projeto de uma loja virtual desenvolvida utilizando o framework Bootstrap 5. O p
    ```bash
    git clone https://github.com/LucasCosta-Code23/QuitandaOnline-Bootstrap5.git
 
+Abra o projeto no seu editor de código preferido.
+
+Execute o projeto em um servidor local.
+
    
 ## Link série de tutoriais no YouTube
 
