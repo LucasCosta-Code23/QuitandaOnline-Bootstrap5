@@ -24,5 +24,6 @@ Projeto de uma loja virtual desenvolvida utilizando o framework Bootstrap 5. O p
 ## Link série de tutoriais no YouTube
 
 [![YouTube Channel](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=SGqe6RixDcg)
-Você pode encontrar a série de tutoriais em vídeo no canal. A série aborda a criação de um modelo de loja virtual responsiva utilizando o Bootstrap 5.
+
+- Você pode encontrar a série de tutoriais em vídeo no canal. A série aborda a criação de um modelo de loja virtual responsiva utilizando o Bootstrap 5.
 
