@@ -4,9 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Quitanda Online :: Fechamento de Compra</title>
 
     <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -18,14 +17,12 @@
     <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Quitanda Online :: Cadastro de Nova Senha</title>
-
 </head>
 
 <body style="min-width:372px;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger border-botton shadow-sm mb-3">
         <div class="container">
-            <a class="navbar-brand" href="/login.html"><strong>Quitanda Online</strong></a>
+            <a class="navbar-brand" href="/index.html"><strong>Quitanda Online</strong></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -58,26 +55,80 @@
             </div>
         </div>
     </nav>
-
     <main>
         <div class="container">
-            <div class="row justify-content-center">
-                <form class="col-sm-10 col-md-8 col-lg-6">
-                    <h2 class="mb-3"><span style="color: rgb(68, 68, 68);">Cadastrar Nova Senha</span></h2>
-
-                    <div class="form-floating mb-3">
-                        <input type="password" class="form-control" autofocus id="txtNovaSenha" placeholder=" ">
-                        <label for="txtNovaSenha">Digite aqui uma nova senha</label>
+            <h2 class="mb-3"><span style="color: rgb(68, 68, 68);">Confira os Itens</span></h2>
+            <h5>Confira os itens e clique em <b>Continuar</b> para prosseguir para a <b>seleção do endereço de entrega</b>.</h5>
+            <ul class="list-group mb-3">
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="/img/produtos/000008.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-8 col-md-9 col-lg-7 col-x1-8 text-left align-self-center">
+                            <h4><b><a href="#" class="text-decoration-none text-danger">Abacate Manteiga</a></b></h4>
+                            <h5>
+                                <small>Abacate manteiga da melhor qualidade possível e muito fresco.<br><b>4 unidades(s)<br>R$15,96</b></small>
+                            </h5>
+                        </div>
                     </div>
-
-                    <div class="form-floating mb-3">
-                        <input type="password" class="form-control" autofocus id="txtConfSenha" placeholder=" ">
-                        <label for="txtConfSenha">Repita a senha digitada acima</label>
+                </li>
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="/img/produtos/000002.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-8 col-md-9 col-lg-7 col-x1-8 text-left align-self-center">
+                            <h4><b><a href="#" class="text-decoration-none text-danger">Abacate Manteiga</a></b></h4>
+                            <h5>
+                                <small>Abacate manteiga da melhor qualidade possível e muito fresco.<br><b>4 unidades(s)<br>R$15,96</b></small>
+                            </h5>
+                        </div>
                     </div>
+                </li>
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="/img/produtos/000004.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-8 col-md-9 col-lg-7 col-x1-8 text-left align-self-center">
+                            <h4><b><a href="#" class="text-decoration-none text-danger">Abacate Manteiga</a></b></h4>
+                            <h5>
+                                <small>Abacate manteiga da melhor qualidade possível e muito fresco.<br><b>4 unidades(s)<br>R$15,96</b></small>
+                            </h5>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="/img/produtos/000003.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-8 col-md-9 col-lg-7 col-x1-8 text-left align-self-center">
+                            <h4><b><a href="#" class="text-decoration-none text-danger">Abacate Manteiga</a></b></h4>
+                            <h5>
+                                <small>Abacate manteiga da melhor qualidade possível e muito fresco.<br><b>4 unidades(s)<br>R$15,96</b></small>
+                            </h5>
+                        </div>
+                    </div>
+                </li>
 
-                    <button class="btn btn-lg btn-danger" type="button" onclick="window.location.href='/confirmcadastrosenha.html'">Cadastrar Nova Senha</button>
-                </form>
-            </div> 
+                <li class="list-group-item py-3">
+                    <div class="text-right">
+                        <h4 class="text-dark mb-3">Valor Total: R$ 47,98</h4>
+                        <a href="/carrinho.html" class="btn btn-outline-success btn-lg mb-3">Voltar ao Carrinho</a>
+                        <a href="/fechamento_endereco.html" class="btn btn-lg btn-danger ms-2 mt-xs-3 mb-3">Continuar</a>
+                    </div>
+                </li>
+            </ul>
         </div>
     </main>
 
