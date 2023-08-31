@@ -1,7 +1,34 @@
 body {
     min-width: 372px;
+    font-size: 14px;
 }
 
+h2, h4, h4 b {
+    font-size: 0.9em;
+}
+
+.card-title {
+    font-size: 17px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 14px;
+}
+
+
+.footer-links a {
+    font-size: 12px;
+}
+
+
+.wrapper {
+    min-height: 100vh;
+}
+
+.btn-lg {
+    padding: 8px 20px;
+    font-size: 14px;
+}
 
 p.truncate-3l {
     display: -webkit-box;
@@ -10,3 +37,31 @@ p.truncate-3l {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+@media screen and (max-width: 469px) {
+    .mt-xs-3 {
+        margin-top: 1rem;
+    }
+}
+
+label:hover .text-dark {
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+label .text-dark {
+    transition: color 0.2s ease;
+}
+
+.btn-check:checked+.btn-outline-danger .text-dark,
+.btn-check:active+.btn-outline-danger .text-dark,
+.btn-check:hover+.btn-outline-danger .text-dark {
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+.flex-even {
+    flex: 1;
+    min-width: 300px;
+}
+
