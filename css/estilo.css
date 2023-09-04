@@ -3,7 +3,7 @@ body {
     font-size: 14px;
 }
 
-h2, h4, h4 b {
+ h4, h4 b {
     font-size: 0.9em;
 }
 
@@ -65,3 +65,7 @@ label .text-dark {
     min-width: 300px;
 }
 
+.form-control:focus {
+    outline: none;
+    border-color: #ced4da;
+    box-shadow: none;
